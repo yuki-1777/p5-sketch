@@ -3,6 +3,9 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   smooth(8);
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function draw() {
   let color1="#4196ED";
